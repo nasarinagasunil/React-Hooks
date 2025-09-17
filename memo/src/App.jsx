@@ -4,10 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-const Greeting = memo(function Greeting({ name }) {
+const Greeting=memo(function Greeting({ name }) {
   console.log('Greeting render')
   return <h1>Hello, {name}!</h1>
-})
+}) 
 
 function App() {
   const [name, setName] = useState('')
